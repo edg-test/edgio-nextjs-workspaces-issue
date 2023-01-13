@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
+    "build": "next build",
+    "dev": "next dev",
+    "export": "next export",
+    "start": "next start"
+  },
+  "private": true,
+  "name": "@project/next-app",
+  "version": "1.0.0",
+  "license": "SEE LICENSE IN ../../LICENSE",
+  "dependencies": {
+    "@project/components": "*",
+    "next": "^13.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@edgio/cli": "^6.0.6",
+    "@edgio/core": "^6.0.6",
+    "@edgio/devtools": "^6.0.6",
+    "@edgio/next": "^6.0.6",
+    "@edgio/prefetch": "^6.0.6",
+    "@edgio/react": "^6.0.6"
+  }
+}

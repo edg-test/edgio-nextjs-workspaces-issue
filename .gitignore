@@ -1,0 +1,7 @@
+node_modules
+.idea
+.DS_Store
+.edgio
+.layer0
+packages/next-app/.next
+packages/next-app/next-env.d.ts
